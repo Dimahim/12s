@@ -1,0 +1,22 @@
+.training__button {
+  background-color: #262626;
+  color: #FFFFFF;
+  border-radius: 15px;
+  font-size: 16px;
+  padding: 18px 22px;
+  font-weight: 500;
+  cursor: pointer;
+
+}
+
+.training__button:hover {
+  background-color: rgb(68, 30, 255);
+  cursor: pointer;
+  border: 2px solid rgb(68, 30, 255);
+}
+
+@media screen and (max-width: 375px) {
+  .training__button {
+    width: 100%;
+  }
+}

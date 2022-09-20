@@ -1,0 +1,16 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  display: flex;
+  justify-content: flex-start;
+  left: -337px;
+  transition: left 400ms;
+  z-index: 1;
+}
+
+@media screen and (max-width: 896px) {
+  .nav {
+    left: -409px;
+  }
+}
