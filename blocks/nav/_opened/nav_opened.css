@@ -1,0 +1,5 @@
+.nav_opened {
+  left: 0;
+  transition: left 400ms;
+}
+

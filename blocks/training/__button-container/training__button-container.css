@@ -1,0 +1,6 @@
+.training__button-container {
+  max-width: 740px;
+  margin: 70px auto 70px;
+  display: flex;
+  align-items: center;
+}

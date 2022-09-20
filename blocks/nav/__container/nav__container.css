@@ -1,0 +1,30 @@
+.nav__container {
+  /* flex-basis: 377px; */
+  /* flex-basis: auto; */
+  width: 377px;
+  display: flex;
+  flex-direction: column;
+  color: #FFFFFF;
+  background-color: #000000;
+  padding: 20px 16px 0 16px;
+  /* overflow: auto; */
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.nav__container::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+@media screen and (max-width: 376px) {
+  .nav__container {
+    width: 302px;
+  }
+} 
+
+@media screen and (max-width: 320px) {
+  .nav__container {
+    width: 289px;
+  }
+} 

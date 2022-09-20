@@ -1,0 +1,17 @@
+.nav__sprint-list {
+  margin: 0;
+  padding: 10px 0 10px 0;
+  color: #ffffff;
+  font-size: 15px;
+  max-width: 250px;
+}
+
+.nav__sprint-list:last-of-type {
+  padding: 10px 0 0 0;
+}
+
+.nav__sprint-list:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  transition: opacity 200ms;
+}
